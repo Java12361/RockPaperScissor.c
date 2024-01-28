@@ -1,1 +1,1 @@
-# RockPaperScissor.c
+# JustForFun.c
