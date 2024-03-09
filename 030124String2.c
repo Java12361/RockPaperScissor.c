@@ -21,7 +21,7 @@ int main(){
                 printf("String %d : ",i+1);
                 scanf("%s",str[i]);
                 count = strlen(str[i]);
-                if(count>25) //if characters is exceed 25 we won't store it
+                if(count>25) //if characters is exceed 25 we won't store it, and repeat
                 {
                     printf("String Cannot Exceed 25\n");
                     i--;
@@ -34,7 +34,7 @@ int main(){
                 }
             }
 
-            for(int i=0;i<n;i++)
+            for(int i=0;i<n;i++) //sorting funstion
             {
                 for(int j=i+1;j<n;j++)
                 {
